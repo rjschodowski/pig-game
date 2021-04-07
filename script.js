@@ -16,8 +16,8 @@ const btnHold = document.querySelector('.btn--hold');
 let scores, currentScore, activePlayer, playing;
 
 //Starting conditionss
-const init = function() {
-    const scores = [0, 0]
+const init = function () {
+    const scores = [0, 0];
     currentScore = 0;
     activePlayer = 0;
     playing = true;
